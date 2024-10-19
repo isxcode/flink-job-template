@@ -1,5 +1,6 @@
 # flink-job-template
-至流云自定义作业模版
+
+> flink自定义作业模版
 
 ### 产品介绍
   
@@ -11,9 +12,11 @@
 git clone https://github.com/isxcode/flink-job-template.git
 cd flink-job-template
 ./gradlew clean build
-cp ./build/libs/job.jar ~/Downloads
+cp ./build/libs/flink-custom-job.jar ~/Downloads
 ```
 
-### 使用配置
+### 新建作业
 
+- 应用名称: custom-job
 - mainClass: com.isxcode.acorn.job.Job
+- 请求参数: insert into print_sink select count(*) from source_table
