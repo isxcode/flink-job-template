@@ -19,4 +19,4 @@ cp ./build/libs/flink-custom-job.jar ~/Downloads
 
 - 应用名称: custom-job
 - mainClass: com.isxcode.acorn.job.Job
-- 请求参数: insert into print_sink select count(*) from source_table
+- 请求参数: insert into print_sink select count(*) from source_table;
