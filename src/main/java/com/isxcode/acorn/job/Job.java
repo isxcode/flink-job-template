@@ -29,7 +29,7 @@ public class Job {
                 ");\n" +
                 "\n" +
                 "CREATE TABLE print_sink ( \n" +
-                "    count_number INT \n" +
+                "    count_number bigint \n" +
                 ") WITH ( \n" +
                 "    'connector' = 'print' \n" +
                 ");\n" +
