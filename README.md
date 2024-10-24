@@ -25,10 +25,12 @@ cp ./build/libs/flink-custom-job.jar ~/Downloads
 
 - https://openfly.oss-cn-shanghai.aliyuncs.com/WordCount.jar
 
-应用名称: flink-demo
-mainClass: org.apache.flink.examples.java.wordcount.WordCount
-请求参数: 
-- --input
-- /Users/ispong/Downloads/in.txt
-- --output
-- /Users/ispong/Downloads/out.txt
+- 应用名称: flink-demo
+- mainClass: org.apache.flink.examples.java.wordcount.WordCount
+- 请求参数(4个): 
+  - --input
+  - /Users/ispong/Downloads/in.txt
+  - --output
+  - /Users/ispong/Downloads/out.txt
+
+![20241024174811](https://img.isxcode.com/picgo/20241024174811.png)
