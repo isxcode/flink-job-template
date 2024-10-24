@@ -20,3 +20,15 @@ cp ./build/libs/flink-custom-job.jar ~/Downloads
 - 应用名称: custom-job
 - mainClass: com.isxcode.acorn.job.Job
 - 请求参数: insert into print_sink select count(*) from my_source;
+
+### 官网计算demo
+
+- https://openfly.oss-cn-shanghai.aliyuncs.com/WordCount.jar
+
+应用名称: flink-demo
+mainClass: org.apache.flink.examples.java.wordcount.WordCount
+请求参数: 
+- --input
+- /Users/ispong/Downloads/in.txt
+- --output
+- /Users/ispong/Downloads/out.txt
