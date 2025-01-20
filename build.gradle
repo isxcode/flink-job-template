@@ -35,6 +35,12 @@ dependencies {
     implementation "org.apache.flink:flink-table-planner_${FLINK_SCALA_VERSION}:${FLINK_VERSION}"
 
     implementation "org.apache.flink:flink-table-api-java-bridge:${FLINK_VERSION}"
+
+    implementation "org.apache.flink:flink-clients:${FLINK_VERSION}"
+
+    implementation "org.apache.flink:flink-connector-files:${FLINK_VERSION}"
+
+    implementation "org.apache.flink:flink-json:${FLINK_VERSION}"
 }
 
 jar {
