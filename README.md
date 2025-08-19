@@ -4,7 +4,7 @@
 
 ### 产品介绍
   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**至流云**](https://zhiliuyun.isxcode.com)是一款超轻量级、企业级流式计算产品，围绕Flink生态打造的数据计算平台。一键部署，开箱即用。可快速实现Flink计算、作业调度、数据ETL、数据同步、实时计算等场景。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**至轻云**](https://zhiqingyun.isxcode.com)是一款企业级、智能化大数据中心。一键部署，开箱即用。可快速实现大数据计算、数据采集、数据清洗、数据安全、数据质量、数据管理、数据接口开放等功能，助力企业构建新一代智慧数据中心。
 
 ### 构建命令
 
