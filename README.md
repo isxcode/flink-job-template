@@ -23,13 +23,13 @@ cp ./build/libs/flink-custom-job.jar ~/Downloads
 
 ### 官网计算demo
 
-- https://openfly.oss-cn-shanghai.aliyuncs.com/WordCount.jar
+- https://zhiqingyun-demo.isxcode.com/tools/open/file/WordCount.jar
 
 - 应用名称: flink-demo
 - mainClass: org.apache.flink.examples.java.wordcount.WordCount
 - 请求参数(4个): 
   - --input
-  - /Users/ispong/Downloads/in.txt
+  - /Users/ispong/zhiqingyun-agent/README.md
   - --output
   - /Users/ispong/Downloads/out.txt
 
